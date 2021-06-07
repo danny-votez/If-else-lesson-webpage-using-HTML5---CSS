@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>JavaScript if...else Statement</title>
+</head>
+<body>
+        <div class="navbar">
+            <a href="allaintaint.com">Home</a>
+            <a href="#">C</a>
+            <a href="#">C++</a>
+            <a href="#">Python</a>
+            <a href="#">JavaScript</a>
+            <a href="#">Java</a>
+            <a href="#">Artificial Intelligence(AI)</a>
+            <a href="#">Contact Us</a>
+        </div>
+    <section class="head">
+        <h1>Allaitant Learning</h1>
+    <div class="title-msg">
+        <h1>JavaScript if...else Statement</h1>
+    </div>
+    </section>
+    <section class="lesson">
+        <h2>JavaScript if...else Statement</h2>
+        <p>In this tutorial, you will learn about the if...else statement to create decision making programs with the help of examples.</p>
+        <p>In computer programming, there may arise situations where you have to run a block of code among more than one alternatives. For example, assigning grades <b>A, B or C </b> based on marks obtained by a student.</p>
+        <p>In such situations, you can use the JavaScript <i> if...else </i> statement to create a program that can make decisions.</p>
+        <hr>
+        <p>In JavaScript, there are three forms of the <i> if...else </i> statement.</p>
+        <ol type="1.">
+            <li><b>if </b>statement</li>
+            <li><b>if...else </b>statement</li>
+            <li><b>if...else if...else </b>statement</li>
+        </ol>
+        <hr>
+        <h2>JavaScript if Statement</h2>
+        <p>The syntax for the <i>if</i> statement is:</p>
+        <img src="if00.png" alt="">
+        <p>The <i>if</i> statement evaluates the condition inside the parenthesis <i>{ }</i>.</p>
+        <ol type="1.">
+            <li>If the condition is evaluated to <i>true,</i> the code inside the body of <i>if</i> is executed.</li>
+            <li>If the condition is evaluated to <i>false, </i> the code inside the body of <i>if</i> is skipped.</li>
+        </ol>
+        <div class="nb">
+            <p><b>Note: </b>The code inside <i> { } </i> is the body of the <i>if</i> statement. </p>
+        </div>
+        <hr>
+        <img src="if01.png" alt="">
+        <hr>
+        <h2>Example 1: if Statement</h2>
+        <img src="if02.png" alt="">
+        <h2>Output 1</h2>
+        <img src="if03.png" alt="">
+        <p>Suppose the user entered <b> 2. </b>In this case, the condition <i> number &gt; 0</i> evaluates to <i>true. </i>And, the body of the <i>if</i> statement is executed.</p>
+        <h2>Output 2</h2>
+        <img src="if04.png" alt="">
+        <p>Suppose the user entered <b> -1. </b>In this case, the condition <i> number &gt; 0 </i>evaluates to <i>false. </i>Hence, the body of the <i> if </i> statement is skipped.</p>
+        <p>Since <i> console.log("The if statement is easy"); </i>is outside the body of the <i> if </i>statement, it is always excuted.</p>
+        <p>Comparison and logical operators are used in conditions. So to learn more about comparison and logical operators, you can visit <a href="comparison.html">JavaScript Comparison and Logical Operators.</a></p>
+        <hr>
+        <h2>JavaScript if...else statement</h2>
+        <p>An <i> if </i> statement can have an optional <i> else </i>clause. The syntax of the <i> if...else </i>statement is:</p>
+        <img src="if05.png" alt="">
+        <p>The <i> if..else </i>statement evaluates the <b> condition </b>inside the parenthesis.</p>
+        <p>If the condition is evaluated to <i>true,</i></p>
+        <ol type="1.">
+            <li>the code inside the body of the <i>if </i>is executed.</li>
+            <li>the code inside the body of <i>else </i>is skipped from execution.</li>
+        </ol>
+        <p>If the condition is evaluated to <i> false,</i></p>
+        <ol type="1.">
+            <li>the code inside the body of <i>else </i> is executed</li>
+            <li>the code inside the body of <i>if </i>is skipped from execution</li>
+            <img src="if06..png" alt="">
+        </ol>
+            <hr>
+            <h2>Example 2: if..else Statement</h2>
+            <img src="if07.png" alt="">
+            <h2>Output 1</h2>
+            <img src="if08.png" alt="">
+            <p>Suppose the user entered <b> 2. </b>In this case, the condition <i> number &gt; 0 </i>evaluates to <i>true. </i>Hence, the body of the <i> if </i>statement is excuted and the body of the <i> else </i>statement is skipped.</p>
+            <h2>Output</h2>
+            <img src="if09.png" alt="">
+            <p>Suppose the user entered <b> -1. </b>In this case, the condition <i> number &gt; 0 </i>evaluates to <i> false. </i>Hence, the body of the <i> else </i>statement is executed and the body of the <i>if </i>statement is skipped.</p>
+            <hr>
+            <h2>JavaScript if...else if statement</h2>
+            <p>The <i>if...else </i>statementis used to execute a block of code among tow alternatives. However, if you need to make a choice between more than two alternatives, <i> if...else if...else </i>can be used.</p>
+            <p>The syntax of the <i>if...else if...else </i>statement is;</p>
+            <img src="if10.png" alt="">
+            <ul>
+                <li>if <b>condition </b>evaluates to <i>true, </i>the <b>code block 1 </b>is executed.</li>
+                <li>if <b>condition </b>evaluates to <i>false, </i>then <b>condition2 </b>is evaluated.</li>
+                <ul>
+                    <li>if the <b>condition2 </b>if <i>true, </i>the <b>code block 2 </b>is executed.</li>
+                    <li>if the <b>condition2 </b>is <i>false, </i>the <b>code block 3 is executed.</b></li>
+                </ul>
+            </ul>
+            <img src="if11.png" alt="">
+            <hr>
+            <h2>Example 3: if...else if statement</h2>
+            <img src="if12.png" alt="">
+            <h2>Output</h2>
+            <img src="if13.png" alt="">
+            <p>Suppose the user entered <b>0, </b>then the first test condition <i>number &gt; 0 </i>evaluates to <i>false. </i>Then, the second test condition, <i>number == 0 </i>evaluates to <i>true </i>and it's corresponding block is executed.</p>
+            <hr>
+            <h2>Nested if...else Statement</h2>
+            <p>You can also use an <i>if...else</i> statement inside of an <i>if..else </i>statement. This is known as <b>nested if..else</b> statement.</i></p>
+            <h2>Example 4: Nested if...else Statement</h2>
+            <img src="if14.png" alt="">
+            <h2>Output</h2>
+            <img src="if15.png" alt="">
+            <p>Suppose the user entered <b>5. </b>In this case, the condition <i>number &gt;&equals; 0 </i>evaluates to <i>true, </i>and the control of the program goes inside the outer <i>if </i>statement.</p>
+            <p>Then, the test condition, <i>number &equals;&equals;0, </i>of the innner <i>if</i> statement is evaluated. Since its false, the <i>else </i>clause of the inner <i>if </i>statement is executed.</p>
+            <div class="nb">
+                <p><b>Note: </b>As you can see, nested <i>if...else </i>makes our logic complicated and we shpuld try to avoid using nested <i>if..else </i>whenever possible.</p>
+            </div>
+            <hr>
+            <h2>Body of if...else With Only One Statement</h2>
+            <p>If the body of <i>if..else </i>has only one statement, we can omit { } in our programs. For example, you can replace</p>
+            <img src="if16.png" alt="">
+            <p>with</p>
+            <img src="if17.png" alt="">
+            <h2>Output</h2>
+            <img src="if18.png" alt="">  
+    </section>
+    <section class="next">
+        <center><table>
+            <tr>
+                <th><a href="#">Next: <b>JS for loop</b></a></td>            
+                <th><a href="#">Go Back to: <b>JavaScript Comparison and Logical Operators</b></a></td>
+            </tr>
+        </table>
+        </center>
+        <br>       
+    </section>
+    <section class="footer">
+        <div class="navbar1">
+            <a href="allaintaint.com">Home</a>
+            <a href="#">C</a>
+            <a href="#">C++</a>
+            <a href="#">Python</a>
+            <a href="#">JavaScript</a>
+            <a href="#">Java</a>
+            <a href="#">Artificial Intelligence(AI)</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="smedia">
+            <a href="facebook.com" class="fa fa-facebook"></a>
+            <a href="twitter.com" class="fa fa-twitter"></a>
+            <a href="linkedin.com" class="fa fa-linkedin"></a>
+            <a href="github.com" class="fa fa-github"></a>
+            <a href="instagram.com" class="fa fa-instagram"></a>
+        </div>
+        <div class="xcopy">
+            <p>&copy;<b>2021<a href="daphicx.com">Daphicx Technologies</a></b></p>
+        </div>
+    </section>    
+</body>
+</html>

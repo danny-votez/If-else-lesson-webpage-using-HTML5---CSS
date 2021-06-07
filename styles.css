@@ -1,0 +1,246 @@
+*
+{
+    margin-left: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.homecopy a
+{
+    text-decoration: none;
+}
+.contents
+{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+}
+.contents a
+{    
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    text-indent: 2px;
+    color: black;
+}
+.contents a:hover
+{
+    color: blue;
+
+}
+.contents h4
+{
+    color:blue;
+}
+.hgroup
+{
+    text-align: center;    
+}
+.head
+{
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    font-size: 30px;
+    margin-top: 61px;
+    background-color: rgb(128, 177, 250);
+    border: solid rgb(183, 235, 183);
+    border-radius: 5px;
+    box-shadow: 20px;
+    position: sticky;
+    /* background-image: url("javascript.png"); */
+}
+.navbar
+{
+    text-align: center;
+    font-size: medium;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    border: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 250, 209);
+    padding-top: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    word-spacing: 3px;
+    padding: 20px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover
+{
+    border-radius: 5px;
+    width: fit-content;
+    color: blue;
+    border-spacing: 20px;
+    border: solid 1.5px;
+}
+.home
+{
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: regb(0, 0, 0, 100, 0.4);
+}
+.home img
+{
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    opacity: 0.5;
+}
+.welcome-msg
+{
+    margin-top: 60px;
+    position: relative;
+    font-family: monospace;
+    color: rgb(12, 12, 12);
+    height: 80vh;
+    font-size: 2rem;
+    z-index: -1;
+}
+img
+{
+    width: 60%;
+    border-radius: 15px;
+    min-width: 600px;
+}
+.lesson
+{
+    margin-top: 10px;
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+}
+.lesson i
+{
+    /* border: solid rgb(248, 161, 126); */
+    font-size: 18px;
+    background-color: rgb(245, 199, 187);
+    padding: 3px;
+    margin: 8px;
+    border-radius: 6px;    
+}
+.lesson a
+{
+    color: blue;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer
+{
+    text-align: center;
+}
+.navbar1
+{
+    font-size: medium;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 250, 209);
+    padding-top: 25px;
+    font-weight: bold;
+    bottom: 0;
+    word-spacing: 3px;
+}
+.navbar1 a
+{
+    text-decoration: none;
+    color: black;
+}
+.navbar1 a:hover
+{
+    color: blue;
+}
+.xcopy
+{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    bottom: 0;
+    position: sticky;
+}
+.next th
+{
+    text-align: center;
+    border: solid rgb(194, 240, 194);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    bottom: 30px;
+    top: 20px;
+    font-size: medium;
+    background-color: hsl(240, 6%, 90%);
+}
+.next a
+{
+    text-decoration: none;
+}
+em
+{
+    font-size: larger;
+    font-style: normal;
+    font-weight: bold;
+    color: red;
+
+}
+.fa
+{
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 2px;
+    background-color: #fde4ea;
+    border-radius: 10px;
+}
+.fa:hover
+{
+    color: rgb(235, 42, 42);
+}
+table, th, td
+{
+    border: 1px solid rgb(0, 0, 0);
+}
+table
+{
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 10px;
+}
+
+@media (min-aspect-ratio:16/9)
+{
+    .home
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9)
+{
+    .home
+    {
+        width: auto;
+        height: 100%;
+    }
+}
